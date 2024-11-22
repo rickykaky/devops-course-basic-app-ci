@@ -1,0 +1,14 @@
+name: Mon deuxieme workflow
+on: [push]
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      name: actions/setup-python@v3
+
+      with :
+        python-version: 3.9
+
+
