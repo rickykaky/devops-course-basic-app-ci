@@ -9,5 +9,5 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Print hello message
-      run: echo "Hello
+      run: echo "Hello"
 
